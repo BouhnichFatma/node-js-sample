@@ -9,5 +9,5 @@ app.get('/', function(request, response) {
 }) 
 const host = '0.0.0.0';
 app.listen(app.get('port'), function() {
-  console.log("Node app is running at localhost:" + app.get('port'))
+  console.log("Node app is running at localhost: ${host}" + app.get('port'))
 })
